@@ -9,12 +9,11 @@
 </style>
 
 <div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
+    <h1 class="center">Hello {{ controller_name }}! ✅</h1>
 
     This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href="{{ 'C:/wamp64/www/SlamQuiz/src/Controller/DefaultController.php'|file_link(0) }}">src/Controller/DefaultController.php</a></code></li>
-        <li>Your template at <code><a href="{{ 'C:/wamp64/www/SlamQuiz/templates/default/index.html.twig'|file_link(0) }}">templates/default/index.html.twig</a></code></li>
+    <ul class="d-flex justify-content-around">
+        <li><a href="{{url('user_index')}}">Liste utilisateurs </a></li>
     </ul>
 </div>
 
