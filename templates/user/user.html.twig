@@ -1,10 +1,10 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Liste des utilisateurs!{% endblock %}
+{% block title %}{% trans %}List Users!{% endtrans %}{% endblock %}
 
 {% block body %}
 
-<h1> Liste des utilisateurs </h1>   
+<h1>{% trans %}List Users{% endtrans %} </h1>   
 
 <ul>
 {% for user in users_list %}

@@ -1,6 +1,6 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello DefaultController!{% endblock %}
+{% block title %}{% trans %}Hello{% endtrans %} DefaultController!{% endblock %}
 
 {% block body %}
 <style>
@@ -9,15 +9,15 @@
 </style>
 
 <div class="example-wrapper">
-    <h1 class="center">Bienvenue {{ controller_name }}! ✅</h1>
+    <h1 class="center"><h1>{% trans %}Symfony is great!{% endtrans %}</h1> {{ controller_name }}! ✅</h1>
 
-    Ce gentille message vous emmènes par ici:
+    {% trans %}This great message help you{% endtrans %}
     <ul class="d-flex justify-content-around">
-        <li><a href="{{url('user_index')}}">Liste utilisateurs </a></li>
+        <li><a href="{{url('user_index')}}">{% trans %}List users{% endtrans %} </a></li>
     </ul>
 </div>
 
-<button class="btn btn-primary" >Se Connecter</button>
-<a  class="btn btn-primary" href="{{ path('category_new') }}">Create new</a>
+<button class="btn btn-primary" >{% trans %}Connection{% endtrans %}</button>
+<a  class="btn btn-primary" href="{{ path('category_new') }}">{% trans %}Create new{% endtrans %}</a>
 
 {% endblock %}
