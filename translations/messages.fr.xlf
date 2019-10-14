@@ -27,7 +27,7 @@
       </trans-unit>
       <trans-unit id="nz33U6Q" resname="Create new">
         <source>Create new</source>
-        <target>Créer utilisateur</target>
+        <target>Créer une catégorie</target>
       </trans-unit>
       <trans-unit id="UzFhc1Y" resname="Accueil">
         <source>Accueil</source>
@@ -79,7 +79,7 @@
       </trans-unit>
       <trans-unit id="xo05DSt" resname="Category index">
         <source>Category index</source>
-        <target>Catégorie d'index</target>
+        <target>Liste des catégories</target>
       </trans-unit>
       <trans-unit id="EhVukhv" resname="Id">
         <source>Id</source>

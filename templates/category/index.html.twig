@@ -21,17 +21,17 @@
                 <td>{{ category.shortname }}</td>
                 <td>{{ category.longname }}</td>
                 <td>
-                    <a class="btn btn-primary" href="{{ path('category_show', {'id': category.id}) }}"><i class="fas fa-eye"></i>{% trans %}Show{% endtrans %}</a>
-                    <a class="btn btn-primary" href="{{ path('category_edit', {'id': category.id}) }}"><i class="fas fa-edit"></i>{% trans %}Edit{% endtrans %}</a>
+                    <a class="btn btn-primary" href="{{ path('category_show', {'id': category.id}) }}"><i class="fas fa-eye"></i> {% trans %}Show{% endtrans %}</a>
+                    <a class="btn btn-primary" href="{{ path('category_edit', {'id': category.id}) }}"><i class="fas fa-edit"></i> {% trans %}Edit{% endtrans %}</a>
                 </td>
             </tr>
         {% else %}
             <tr>
-                <td colspan="4">{% trans %}No record found{% endtrans %}</td>
+                <td colspan="4"> {% trans %}No record found{% endtrans %}</td>
             </tr>
         {% endfor %}
         </tbody>
     </table>
 
-    <a class="btn btn-primary" href="{{ path('category_new') }}"><i class="far fa-plus-square"></i>{% trans %}Create new{% endtrans %}</a>
+    <a class="btn btn-primary" href="{{ path('category_new') }}"><i class="far fa-plus-square"></i> {% trans %}Create new{% endtrans %}</a>
 {% endblock %}
