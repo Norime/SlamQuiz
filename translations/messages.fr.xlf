@@ -143,7 +143,35 @@
       </trans-unit>
       <trans-unit id="wcEAnT8" resname="Update">
         <source>Update</source>
-        <target>Enregistrer</target>
+        <target>Mettre a jour</target>
+      </trans-unit>
+      <trans-unit id="nWMiwfT" resname="Login">
+        <source>Login</source>
+        <target>Connexion</target>
+      </trans-unit>
+      <trans-unit id="1X1ItxA" resname="Log Out">
+        <source>Log Out</source>
+        <target>Déconnexion</target>
+      </trans-unit>
+      <trans-unit id="REE8PZe" resname="Are you sure you want to delete this item?">
+        <source>Are you sure you want to delete this item?</source>
+        <target>Voulez vous vraiment supprimer cette élément?</target>
+      </trans-unit>
+      <trans-unit id="dDUw20Q" resname="Please sign in">
+        <source>Please sign in</source>
+        <target>Connectez vous</target>
+      </trans-unit>
+      <trans-unit id="lpzL089" resname="Email">
+        <source>Email</source>
+        <target>Email</target>
+      </trans-unit>
+      <trans-unit id="588_9PF" resname="Password">
+        <source>Password</source>
+        <target>Mots de passe</target>
+      </trans-unit>
+      <trans-unit id="v9QCsvb" resname="Sign in">
+        <source>Sign in</source>
+        <target>Connexion</target>
       </trans-unit>
     </body>
   </file>
