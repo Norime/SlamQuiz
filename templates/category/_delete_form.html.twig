@@ -2,4 +2,7 @@
     <input type="hidden" name="_method" value="DELETE">
     <input type="hidden" name="_token" value="{{ csrf_token('delete' ~ category.id) }}">
     <button class="btn btn-secondary"><i class="fas fa-trash-alt"></i> {% trans %}Delete{% endtrans %}</button>
+    {% if is_granted('ROLE_SUPER_ADMIN') %}
+        <button class="btn btn-secondary"><i class="fas fa-trash-alt"></i> {% trans %}Delete{% endtrans %}</button>
+    {% endif %}
 </form>

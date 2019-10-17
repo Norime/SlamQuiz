@@ -20,6 +20,8 @@ class CategoryController extends AbstractController
      */
     public function index(CategoryRepository $categoryRepository): Response
     {
+        $this->denyAccessUnlessGranted('ROLE_USER');
+
         return $this->render('category/index.html.twig', [
             'categories' => $categoryRepository->findAll(),
         ]);
@@ -30,6 +32,10 @@ class CategoryController extends AbstractController
      */
     public function new(Request $request): Response
     {
+
+        $this->denyAccessUnlessGranted('ROLE_ADMIN');
+
+
         $category = new Category();
         $form = $this->createForm(CategoryType::class, $category);
         $form->handleRequest($request);
@@ -63,6 +69,10 @@ class CategoryController extends AbstractController
      */
     public function edit(Request $request, Category $category): Response
     {
+
+        
+        $this->denyAccessUnlessGranted('ROLE_ADMIN');
+        
         $form = $this->createForm(CategoryType::class, $category);
         $form->handleRequest($request);
 
