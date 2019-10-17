@@ -22,7 +22,6 @@
                 <td>{{ category.longname }}</td>
                 <td>
                     <a class="btn btn-primary" href="{{ path('category_show', {'id': category.id}) }}"><i class="fas fa-eye"></i> {% trans %}Show{% endtrans %}</a>
-                    <a class="btn btn-primary" href="{{ path('category_edit', {'id': category.id}) }}"><i class="fas fa-edit"></i> {% trans %}Edit{% endtrans %}</a>
                     {% if is_granted('ROLE_ADMIN') %}
                         <a class="btn btn-primary" href="{{ path('category_edit', {'id': category.id}) }}"><i class="fas fa-edit"></i> {% trans %}Edit{% endtrans %}</a>
                     {% endif %}
@@ -37,4 +36,5 @@
     </table>
 
     <a class="btn btn-primary" href="{{ path('category_new') }}"><i class="far fa-plus-square"></i> {% trans %}Create new{% endtrans %}</a>
+    <a class="btn btn-primary" href="{{ path('user_index') }}">Users</a>
 {% endblock %}

@@ -173,6 +173,18 @@
         <source>Sign in</source>
         <target>Connexion</target>
       </trans-unit>
+      <trans-unit id="u3I07BJ" resname="Register">
+        <source>Register</source>
+        <target>S'inscrire</target>
+      </trans-unit>
+      <trans-unit id="vk7pBtP" resname="Japanese">
+        <source>Japanese</source>
+        <target>Japonais</target>
+      </trans-unit>
+      <trans-unit id="JFbYZu6" resname="sign in">
+        <source>sign in</source>
+        <target>S'inscrire</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
