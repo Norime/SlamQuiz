@@ -185,6 +185,18 @@
         <source>sign in</source>
         <target>S'inscrire</target>
       </trans-unit>
+      <trans-unit id="PcQDN.z" resname="List category">
+        <source>List category</source>
+        <target>Liste des categorie</target>
+      </trans-unit>
+      <trans-unit id="Av1ICIo" resname="This software as create for a quizz in the SLAM section of the BTS SIO for evaluate the knowledge of the students">
+        <source>This software as create for a quizz in the SLAM section of the BTS SIO for evaluate the knowledge of the students</source>
+        <target>Ce logiciel a était créer pour faire un quizz à la section SLAM du BTS SIO pour évaluer les connaissance des étudiants</target>
+      </trans-unit>
+      <trans-unit id="hDMatXa" resname="Create new user">
+        <source>Create new user</source>
+        <target>Créer un utilisateur</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
