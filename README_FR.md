@@ -11,7 +11,7 @@
 
 4. Manuel d'utilisation
 
-![Menu symfony](assets/screenshot_home.JPG)
+![Menu symfony](assets/screenshot_home_fr.JPG)
 
 *N'oublier pas d'effectuer la traduction avec la balise {% trans %}*
 __également important__
