@@ -8,7 +8,8 @@
     *You need php 7.0 and dont forget to download composer and symfony
 
 3. Configuration
-
+    *For take control of the Databse you need to go on .env and change the line 27*
+    *DATABASE_URL=mysql://slamquiz:dbpassword@127.0.0.1:3306/slamquiz*
 4. User manual
 
 ![Menu symfony](assets/screenshot_home_en.JPG)
@@ -19,5 +20,5 @@
 {% block title %}{% trans %}Hello{% endtrans %} DefaultController!{% endblock %}
 `
 
-*Dont forget the command ligne on cmd for update disponible translation*
+*Dont forget the command line on cmd for update disponible translation*
 *php bin/console translation:update --force Language*
