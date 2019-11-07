@@ -14,26 +14,27 @@
 	![Composer Install](assets/ComposerInstall.JPG)
 
 4. **Configuration**
-    *For take control of the Databse you need to go on .env and change the line 27*
+    *For take control of the Database you need to go on .env and change the line 27*
     *DATABASE_URL=mysql://slamquiz:dbpassword@127.0.0.1:3306/slamquiz*
+	*It's use for give crypted password*
 
 5. **User manual**
-*For acces on your page use the adress localhost:8000 on your browser
+	*For acces on your page use the adress localhost:8000 on your browser
 
 ![Menu symfony](assets/screenshot_home_en.JPG)
 
 **Translation**
-*Dont forget the possible traduction {% trans %} if nous need another language*
+	*Dont forget the possible traduction {% trans %} if nous need another language*
 
-`
-{% block title %}{% trans %}Hello{% endtrans %} DefaultController!{% endblock %}
-`
+	`
+	{% block title %}{% trans %}Hello{% endtrans %} DefaultController!{% endblock %}
+	`
 
 *Dont forget the command line on cmd for update disponible translation*
 *php bin/console translation:update --force Language*
 
 **Starting server**
-*And now for start the server go to the file position with your Terminal and use the command line php bin/console server:run*
-![Start Server](assets/ServerRun.JPG)
+	*And now for start the server go to the file position with your Terminal and use the command line php bin/console server:run*
+	![Start Server](assets/ServerRun.JPG)
 
-**now we can enjoy your best wabsite !**
+**now we can enjoy your best website !**
