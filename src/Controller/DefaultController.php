@@ -16,18 +16,5 @@ class DefaultController extends AbstractController
             'controller_name' => 'DefaultController',
         ]);
     }
-    /**
-     * @Route("/user", name="default_user")
-     */
-
-    public function user(){
-        $firstName = "Mr DUPOND";
-        $lastName = "Aignant";
-        return $this->render('default/user.html.twig',[
-            'first_name' =>$firstName,
-            'last_name' =>$lastName,
-        ]);
-    }
-
 }
 

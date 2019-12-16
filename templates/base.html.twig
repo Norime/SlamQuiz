@@ -20,7 +20,7 @@
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav mr-auto ">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#"><i class="fas fa-home"></i>{% trans %}Index{% endtrans %} <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#"><i class="fas fa-home"></i>{% trans %}Home{% endtrans %} <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#"><i class="fas fa-link"></i>{% trans %}Link{% endtrans %}</a>
@@ -29,15 +29,18 @@
                     <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><i class="fas fa-bed"></i>{% trans %}Disabled{% endtrans %}</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-list-ul"></i> Liste déroulante</a>
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-list-ul"></i> {% trans %}dropdown{% endtrans %}</a>
                     <div class="dropdown-menu" aria-labelledby="dropdown01">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Other action</a>
-                    <a class="dropdown-item" href="#">Quelque chose ici</a>
+                    <a class="dropdown-item" href="#">{% trans %}French{% endtrans %}</a>
+                    <a class="dropdown-item" href="#">{% trans %}English{% endtrans %}</a>
+                    <a class="dropdown-item" href="#">{% trans %}Japanese{% endtrans %}</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ path('category_index') }}"><i class="fas fa-poo"></i>Category</a>
+                    <a class="nav-link" href="{{ path('category_index') }}"><i class="fas fa-poo"></i>{% trans %}Category{% endtrans %}</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="{{ path('app_login') }}"><i class="fas fa-home"></i>{% trans %}Login{% endtrans %} <span class="sr-only">(current)</span></a>
                 </li>
                 {% if not app.user %}
                 <li class="nav-item active">
@@ -52,16 +55,16 @@
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                <button class="btn btn-secondary my-2 my-sm-0" type="submit"> {% trans %}Search{% endtrans %}</button>
                 </form>
             </div>
         </nav>
 
         <main role="main" class="container">
 
-        <div class="starter-template border border-info text-center">
-            <h1>Bootstrap starter template</h1>
-            <p class="lead">Utiliser ce document pour customiser votre interface.<br> All you get is this text and a mostly barebones HTML document.</p>
+        <div class="starter-template border border-info text-center mt-5">
+            {# <h1>Bootstrap starter template</h1> 
+            <p class="lead">Utiliser ce document pour customiser votre interface.<br> All you get is this text and a mostly barebones HTML document.</p>#}
             {% block body %}{% endblock %}
         </div>
 

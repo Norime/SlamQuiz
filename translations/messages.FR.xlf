@@ -5,25 +5,197 @@
       <tool tool-id="symfony" tool-name="Symfony"/>
     </header>
     <body>
-      <trans-unit id="OcO_EZi" resname="Index">
-        <source>Index</source>
-        <target>__Index</target>
+      <trans-unit id="NSEiWmD" resname="Symfony is great!">
+        <source>Symfony is great!</source>
+        <target>Symfony est super!</target>
+      </trans-unit>
+      <trans-unit id="GF_NsyJ" resname="Hello">
+        <source>Hello</source>
+        <target>Bienvenue</target>
+      </trans-unit>
+      <trans-unit id="Q8oJ4v1" resname="This great message help you">
+        <source>This great message help you</source>
+        <target>Ce merveilleux message est la pour vous aidez</target>
+      </trans-unit>
+      <trans-unit id="kClzBgP" resname="List users">
+        <source>List users</source>
+        <target>Liste utilisateur</target>
+      </trans-unit>
+      <trans-unit id="Y5pA6Cu" resname="Connection">
+        <source>Connection</source>
+        <target>Connexion</target>
+      </trans-unit>
+      <trans-unit id="nz33U6Q" resname="Create new">
+        <source>Create new</source>
+        <target>Créer une catégorie</target>
+      </trans-unit>
+      <trans-unit id="UzFhc1Y" resname="Accueil">
+        <source>Accueil</source>
+        <target>Accueil</target>
       </trans-unit>
       <trans-unit id="pqMtvFY" resname="Link">
         <source>Link</source>
-        <target>__Link</target>
+        <target>Lien</target>
       </trans-unit>
       <trans-unit id="dQgbWT0" resname="Disabled">
         <source>Disabled</source>
-        <target>__Disabled</target>
+        <target>Désactivé</target>
       </trans-unit>
-      <trans-unit id="JFbYZu6" resname="sign in">
-        <source>sign in</source>
-        <target>__sign in</target>
+      <trans-unit id=".KEkMQ9" resname="dropdown">
+        <source>dropdown</source>
+        <target>Liste déroulante</target>
+      </trans-unit>
+      <trans-unit id="dFgZn_l" resname="French">
+        <source>French</source>
+        <target>Français</target>
+      </trans-unit>
+      <trans-unit id="uhGL9.y" resname="English">
+        <source>English</source>
+        <target>Anglais</target>
+      </trans-unit>
+      <trans-unit id="eFpUJtE" resname="Japanise">
+        <source>Japanise</source>
+        <target>Japonais</target>
+      </trans-unit>
+      <trans-unit id="KSwG8AR" resname="Category">
+        <source>Category</source>
+        <target>Catégorie</target>
+      </trans-unit>
+      <trans-unit id="ScJmuqq" resname="Search">
+        <source>Search</source>
+        <target>Recherche</target>
+      </trans-unit>
+      <trans-unit id="OnhpU4i" resname="Home">
+        <source>Home</source>
+        <target>Accueil</target>
+      </trans-unit>
+      <trans-unit id="IWEN1vH" resname="Edit category">
+        <source>Edit category</source>
+        <target>Editer la catégorie</target>
+      </trans-unit>
+      <trans-unit id="Xaj3_8K" resname="Back to list">
+        <source>Back to list</source>
+        <target>Retour à la liste</target>
+      </trans-unit>
+      <trans-unit id="xo05DSt" resname="Category index">
+        <source>Category index</source>
+        <target>Liste des catégories</target>
+      </trans-unit>
+      <trans-unit id="EhVukhv" resname="Id">
+        <source>Id</source>
+        <target>Id</target>
+      </trans-unit>
+      <trans-unit id="eIfU4gL" resname="ShortName">
+        <source>ShortName</source>
+        <target>ShortName</target>
+      </trans-unit>
+      <trans-unit id="g_V6J3m" resname="LongName">
+        <source>LongName</source>
+        <target>LongName</target>
+      </trans-unit>
+      <trans-unit id=".4BZ3Gd" resname="Actions">
+        <source>Actions</source>
+        <target>Actions</target>
+      </trans-unit>
+      <trans-unit id="DfbxytN" resname="Show">
+        <source>Show</source>
+        <target>Voir</target>
+      </trans-unit>
+      <trans-unit id="RkxP.QG" resname="Edit">
+        <source>Edit</source>
+        <target>Editer</target>
+      </trans-unit>
+      <trans-unit id="QPTZ6XH" resname="No record found">
+        <source>No record found</source>
+        <target>Pas de contenu détécté</target>
+      </trans-unit>
+      <trans-unit id="GrHhIcD" resname="New category">
+        <source>New category</source>
+        <target>Nouvelle catégorie</target>
+      </trans-unit>
+      <trans-unit id="BERQBOo" resname="Create new category">
+        <source>Create new category</source>
+        <target>Creer une nouvelle catégorie</target>
+      </trans-unit>
+      <trans-unit id="JDGJ6tc" resname="Shortname">
+        <source>Shortname</source>
+        <target>Shortname</target>
+      </trans-unit>
+      <trans-unit id="9iiazAv" resname="Longname">
+        <source>Longname</source>
+        <target>Longname</target>
+      </trans-unit>
+      <trans-unit id="4tClSWj" resname="Delete">
+        <source>Delete</source>
+        <target>Supprimer</target>
+      </trans-unit>
+      <trans-unit id="3OgNBHv" resname="List Users!">
+        <source>List Users!</source>
+        <target>Liste utilisateur!</target>
+      </trans-unit>
+      <trans-unit id="XTQUFze" resname="List Users">
+        <source>List Users</source>
+        <target>Liste utilisateur</target>
+      </trans-unit>
+      <trans-unit id="FQn1YfJ" resname="Save">
+        <source>Save</source>
+        <target>Enregistrer</target>
+      </trans-unit>
+      <trans-unit id="wcEAnT8" resname="Update">
+        <source>Update</source>
+        <target>Mettre a jour</target>
+      </trans-unit>
+      <trans-unit id="nWMiwfT" resname="Login">
+        <source>Login</source>
+        <target>Connexion</target>
       </trans-unit>
       <trans-unit id="1X1ItxA" resname="Log Out">
         <source>Log Out</source>
-        <target>__Log Out</target>
+        <target>Déconnexion</target>
+      </trans-unit>
+      <trans-unit id="REE8PZe" resname="Are you sure you want to delete this item?">
+        <source>Are you sure you want to delete this item?</source>
+        <target>Voulez vous vraiment supprimer cette élément?</target>
+      </trans-unit>
+      <trans-unit id="dDUw20Q" resname="Please sign in">
+        <source>Please sign in</source>
+        <target>Connectez vous</target>
+      </trans-unit>
+      <trans-unit id="lpzL089" resname="Email">
+        <source>Email</source>
+        <target>Email</target>
+      </trans-unit>
+      <trans-unit id="588_9PF" resname="Password">
+        <source>Password</source>
+        <target>Mots de passe</target>
+      </trans-unit>
+      <trans-unit id="v9QCsvb" resname="Sign in">
+        <source>Sign in</source>
+        <target>Connexion</target>
+      </trans-unit>
+      <trans-unit id="u3I07BJ" resname="Register">
+        <source>Register</source>
+        <target>S'inscrire</target>
+      </trans-unit>
+      <trans-unit id="vk7pBtP" resname="Japanese">
+        <source>Japanese</source>
+        <target>Japonais</target>
+      </trans-unit>
+      <trans-unit id="JFbYZu6" resname="sign in">
+        <source>sign in</source>
+        <target>S'inscrire</target>
+      </trans-unit>
+      <trans-unit id="PcQDN.z" resname="List category">
+        <source>List category</source>
+        <target>Liste des categorie</target>
+      </trans-unit>
+      <trans-unit id="Av1ICIo" resname="This software as create for a quizz in the SLAM section of the BTS SIO for evaluate the knowledge of the students">
+        <source>This software as create for a quizz in the SLAM section of the BTS SIO for evaluate the knowledge of the students</source>
+        <target>Ce logiciel a était créer pour faire un quizz à la section SLAM du BTS SIO pour évaluer les connaissance des étudiants</target>
+      </trans-unit>
+      <trans-unit id="hDMatXa" resname="Create new user">
+        <source>Create new user</source>
+        <target>Créer un utilisateur</target>
       </trans-unit>
     </body>
   </file>
