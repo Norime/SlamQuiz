@@ -42,7 +42,11 @@ class UserFixtures extends Fixture
             $superadmin->setRoles(['ROLE_SUPER_ADMIN']);
             $superadmin->setPassword($this->passwordEncoder->encodePassword(
                 $superadmin,
+<<<<<<< HEAD
                 '$argon2id$v=19$m=65536,t=4,p=1$OC9PMEx6b0dTbjh2YnFMTQ$gkxL+XZJDvclt6o5DaKJvegQPXCSeDwc2P1QmzkeSN0'
+=======
+                'a'//$argon2id$v=19$m=65536,t=4,p=1$OC9PMEx6b0dTbjh2YnFMTQ$gkxL+XZJDvclt6o5DaKJvegQPXCSeDwc2P1QmzkeSN0
+>>>>>>> master
             ));
         $manager->persist($superadmin);
 
