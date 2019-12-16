@@ -4356,18 +4356,6 @@
         },
         {
             "name": "symfony/security-bundle",
-<<<<<<< HEAD
-            "version": "v4.3.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/security-bundle.git",
-                "reference": "aa3cd52168c2e5c99effe560907f22fcffe8a788"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/security-bundle/zipball/aa3cd52168c2e5c99effe560907f22fcffe8a788",
-                "reference": "aa3cd52168c2e5c99effe560907f22fcffe8a788",
-=======
             "version": "v4.3.9",
             "source": {
                 "type": "git",
@@ -4378,7 +4366,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/security-bundle/zipball/8d157b5a96c2d7561e29eca3574344727482d3fb",
                 "reference": "8d157b5a96c2d7561e29eca3574344727482d3fb",
->>>>>>> master
                 "shasum": ""
             },
             "require": {
@@ -4449,11 +4436,7 @@
             ],
             "description": "Symfony SecurityBundle",
             "homepage": "https://symfony.com",
-<<<<<<< HEAD
-            "time": "2019-09-05T18:00:30+00:00"
-=======
             "time": "2019-11-30T13:16:45+00:00"
->>>>>>> master
         },
         {
             "name": "symfony/security-core",
@@ -4990,18 +4973,6 @@
         },
         {
             "name": "symfony/translation",
-<<<<<<< HEAD
-            "version": "v4.3.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/translation.git",
-                "reference": "fe6193b066c457c144333c06aaa869a2d42a167f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/fe6193b066c457c144333c06aaa869a2d42a167f",
-                "reference": "fe6193b066c457c144333c06aaa869a2d42a167f",
-=======
             "version": "v4.3.9",
             "source": {
                 "type": "git",
@@ -5012,7 +4983,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/translation/zipball/73f86a49454d9477864ccbb6c06993e24a052a48",
                 "reference": "73f86a49454d9477864ccbb6c06993e24a052a48",
->>>>>>> master
                 "shasum": ""
             },
             "require": {
@@ -5075,11 +5045,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-<<<<<<< HEAD
             "time": "2019-09-27T14:37:39+00:00"
-=======
-            "time": "2019-11-26T03:44:44+00:00"
->>>>>>> master
         },
         {
             "name": "symfony/translation-contracts",
