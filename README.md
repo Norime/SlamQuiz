@@ -1,5 +1,7 @@
 #Software installation
 
+test
+
 1. **Download**
     *For beginning you need to go on this link : https://github.com/Norime/SlamQuiz*
     *Download the package or clone this by the command line "git clone"*
