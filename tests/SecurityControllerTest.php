@@ -4,6 +4,9 @@ namespace App\Tests;
 
 //use PHPUnit\Framework\TestCase;
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
+use Symfony\Component\BrowserKit\cookie;
+use Symfony\Component\Security\Core\Authentication\Token\UsernamePasswordToken;
+use Symfony\Component\Httpfoundation\Response;
 
 class SecurityControllerTest extends WebTestCase
 {
@@ -108,7 +111,7 @@ class SecurityControllerTest extends WebTestCase
         la requête '/category' renvoie une réponse HTTP avec un code de statut égale à 200 (Response::HTTP_OK)
         */
         
-        $this->assertEquals(Response::HTTP_OK, $this->client->getResponse()->getStatusCode());
+        $this->assertSame(Response::HTTP_OK, $this->client->getResponse()->getStatusCode());
         // Asserts that the response content contains 'Category index' in 'h1' tag
         /* 
         Ecrire ici le code pour vérifier que, si l'utilisateur est connecté avec le rôle ROLE_USER, 
@@ -145,6 +148,6 @@ class SecurityControllerTest extends WebTestCase
         Ecrire ici le code pour vérifier que, si l'utilisateur est connecté avec le rôle ROLE_ADMIN, 
         la requête '/category/new' renvoie 'Create new' dans la balise 'h1'
         */
-        $this->assertSelectorTextContains('html h2', 'Create new');
+        $this->assertSelectorTextContains('html h1', 'Create new category');
     }
 }
