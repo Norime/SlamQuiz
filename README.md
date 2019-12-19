@@ -1,4 +1,5 @@
 #Software installation
+[![Build Status](https://travis-ci.org/Norime/SlamQuiz.svg?branch=master)](https://travis-ci.org/Norime/SlamQuiz.svg?branch=master)
 
 1. **Download**
     *For beginning you need to go on this link : https://github.com/Norime/SlamQuiz*
