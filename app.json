@@ -1,0 +1,7 @@
+{
+    "name": "heroku deploy",
+    "description": "A heroku prog",
+    "repository": "https://github.com/Norime/SlamQuiz.git",
+    "logo": "https://node-js-sample.herokuapp.com/node.png",
+    "keywords": ["php", "express", "static"]
+  }
